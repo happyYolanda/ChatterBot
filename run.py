@@ -13,7 +13,7 @@ def main():
 			break
 		else:
 			response = chatbot.get_response(sentence)
-			print (response + '\n')
+			print (str(response) + '\n')
 
 if __name__ == "__main__":
 	main()
